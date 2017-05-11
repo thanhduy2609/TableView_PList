@@ -14,6 +14,8 @@
 		302AD5CD1EC4CA42006A4B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302AD5CB1EC4CA42006A4B60 /* LaunchScreen.storyboard */; };
 		302AD5D81EC4CA42006A4B60 /* TableView_PListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302AD5D71EC4CA42006A4B60 /* TableView_PListTests.swift */; };
 		302AD5E31EC4CA42006A4B60 /* TableView_PListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302AD5E21EC4CA42006A4B60 /* TableView_PListUITests.swift */; };
+		302AD5F11EC4CA95006A4B60 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 302AD5F01EC4CA95006A4B60 /* data.plist */; };
+		302AD5F31EC4CB20006A4B60 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302AD5F21EC4CB20006A4B60 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		302AD5DE1EC4CA42006A4B60 /* TableView_PListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableView_PListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		302AD5E21EC4CA42006A4B60 /* TableView_PListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_PListUITests.swift; sourceTree = "<group>"; };
 		302AD5E41EC4CA42006A4B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302AD5F01EC4CA95006A4B60 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		302AD5F21EC4CB20006A4B60 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		302AD5C11EC4CA42006A4B60 /* TableView_PList */ = {
 			isa = PBXGroup;
 			children = (
+				302AD5F01EC4CA95006A4B60 /* data.plist */,
 				302AD5C21EC4CA42006A4B60 /* AppDelegate.swift */,
 				302AD5C41EC4CA42006A4B60 /* ViewController.swift */,
 				302AD5C61EC4CA42006A4B60 /* Main.storyboard */,
 				302AD5C91EC4CA42006A4B60 /* Assets.xcassets */,
 				302AD5CB1EC4CA42006A4B60 /* LaunchScreen.storyboard */,
 				302AD5CE1EC4CA42006A4B60 /* Info.plist */,
+				302AD5F21EC4CB20006A4B60 /* TableViewController.swift */,
 			);
 			path = TableView_PList;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				302AD5CD1EC4CA42006A4B60 /* LaunchScreen.storyboard in Resources */,
 				302AD5CA1EC4CA42006A4B60 /* Assets.xcassets in Resources */,
+				302AD5F11EC4CA95006A4B60 /* data.plist in Resources */,
 				302AD5C81EC4CA42006A4B60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				302AD5C51EC4CA42006A4B60 /* ViewController.swift in Sources */,
+				302AD5F31EC4CB20006A4B60 /* TableViewController.swift in Sources */,
 				302AD5C31EC4CA42006A4B60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
